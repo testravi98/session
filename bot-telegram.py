@@ -12,7 +12,7 @@ async def chatgpt(message):
     api_url = "https://api.openai.com/v1/chat/completions"
 
 # Set the API key (replace YOUR_API_KEY with your actual API key)
-    token="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"
+    token=""
     api_key = "Bearer "+token
 
 # Set the request parameters
@@ -47,7 +47,7 @@ async def reply_to_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(chat_id=update.effective_chat.id, text=f"Response: \n {message_text}")
 
 if __name__ == '__main__':
-    token_string="6748292460:AAHtzlnfTDc9ErJ1vHocMCtmLTMF3LFz-cg"
+    token_string=""
     application = ApplicationBuilder().token(token_string).build()
 
     start_handler = CommandHandler('start', start)
