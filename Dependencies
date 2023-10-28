@@ -1,0 +1,20 @@
+
+Download Python -- Add in Path
+
+pip install "python-telegram-bot[all]"
+pip install requests
+
+Repalce the Token String in bot-telegram.py in line 50 
+Token can be generated from @BotFather
+
+========================
+
+Replace Token String from open AI in line 15
+Token can be generated from 
+https://platform.openai.com/account/api-keys
+
+=========================
+
+Download Webex - https://www.webex.com/downloads.html
+
+Webex API guide - https://developer.webex.com/docs/getting-started
